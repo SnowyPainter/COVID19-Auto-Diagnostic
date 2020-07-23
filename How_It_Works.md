@@ -17,24 +17,26 @@
 
 | Reqeust Header
 --------
-| POST /stv_cvd_co00_004.do HTTP/1.1  
-| Host: eduro.gbe.kr
-| User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/| 20100101 Firefox/79.0
-| Accept: application/json, text/javascript, */*; q=0.01
-| Accept-Language: en-US,en;q=0.5
-| Accept-Encoding: gzip, deflate, br
-| Content-Type: application/x-www-form-urlencoded; charset=UTF-8
-| X-Requested-With: XMLHttpRequest
-| Content-Length: 53
-| Origin: https://eduro.gbe.kr
-| Connection: keep-alive
-| Referer: https://eduro.gbe.kr/stv_cvd_co00_002.do
-| Cookie: WMONID=VPLR2pWm7-P;  JSESSIONID=1CH5w3J7ZaaQ4oE92RztfnXuNnddKafZ91vejEMJ1S2O7tJOVlYWskbIjnyBrlqn.gbe-pacwas2_servlet_pacwas
-
+```
+POST /stv_cvd_co00_004.do HTTP/1.1  
+Host: eduro.gbe.kr
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/| 20100101 Firefox/79.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Content-Length: 53
+Origin: https://eduro.gbe.kr
+Connection: keep-alive
+Referer: https://eduro.gbe.kr/stv_cvd_co00_002.do
+Cookie: WMONID=VPLR2pWm7-P;  JSESSIONID=1CH5w3J7ZaaQ4oE92RztfnXuNnddKafZ91vejEMJ1S2O7tJOVlYWskbIjnyBrlqn.gbe-pacwas2_servlet_pacwas
+```
 | Request Body
 -----------
-| {"schulNm":"학교이름"}
-
+```
+{"schulNm":"학교이름"}
+```
 
 resultSVO.rtnRsltCode
 "" 라면 실패입니다.
@@ -47,24 +49,26 @@ SUCCESS면 성공이고, schulCode에 학교 번호가 적혀져있습니다.
 
 | Request Header
 -----------------
-| POST /stv_cvd_co00_012.do HTTP/1.1
-| Host: eduro.gbe.kr
-| User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/| 20100101 Firefox/79.0
-| Accept: application/json, text/javascript, */*; q=0.01
-| Accept-Language: en-US,en;q=0.5
-| Accept-Encoding: gzip, deflate, br
-| Content-Type: application/x-www-form-urlencoded; charset=UTF-8
-| X-Requested-With: XMLHttpRequest
-| Content-Length: 169
-| Origin: https://eduro.gbe.kr
-| Connection: keep-alive
-| Referer: https://eduro.gbe.kr/stv_cvd_co00_002.do
-| Cookie: WMONID=VPLR2pWm7-P;  JSESSIONID=9dM1D8JJVTPl1k6s3w2MiEtNeuCnKHd19tVjLDDXK4FeaRPqVXJzltdi3kHnkWza.gbe-pacwas1_servlet_pacwas
-
+```
+POST /stv_cvd_co00_012.do HTTP/1.1
+Host: eduro.gbe.kr
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/| 20100101 Firefox/79.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Content-Length: 169
+Origin: https://eduro.gbe.kr
+Connection: keep-alive
+Referer: https://eduro.gbe.kr/stv_cvd_co00_002.do
+Cookie: WMONID=VPLR2pWm7-P;  JSESSIONID=9dM1D8JJVTPl1k6s3w2MiEtNeuCnKHd19tVjLDDXK4FeaRPqVXJzltdi3kHnkWza.gbe-pacwas1_servlet_pacwas
+```
 | Request Body
 ---------------
-| {"qstnCrtfcNoEncpt":"","rtnRsltCode":"","schulCode":schulCode,"schulNm":"학교이름","pName":"이름","frnoRidno":"생년월일","aditCrtfcNo":""}
-
+```
+{"qstnCrtfcNoEncpt":"","rtnRsltCode":"","schulCode":schulCode,"schulNm":"학교이름","pName":"이름","frnoRidno":"생년월일","aditCrtfcNo":""}
+```
 resultSVO.rtnRsltCode 
 "" 면 실패이고, SUCCESS면 성공입니다.
 
@@ -75,24 +79,26 @@ resultSVO.rtnRsltCode
 
 | Request Header
 --------------------
-| POST /stv_cvd_co00_000.do HTTP/1.1
-| Host: eduro.gbe.kr
-| User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0
-| Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-| Accept-Language: en-US,en;q=0.5
-| Accept-Encoding: gzip, deflate, br
-| Content-Type: application/x-www-form-urlencoded
-| Content-Length: 208
-| Origin: https://eduro.gbe.kr
-| Connection: keep-alive
-| Referer: https://eduro.gbe.kr/stv_cvd_co00_002.do
-| Cookie: WMONID=VPLR2pWm7-P; JSESSIONID=9dM1D8JJVTPl1k6s3w2MiEtNeuCnKHd19tVjLDDXK4FeaRPqVXJzltdi3kHnkWza.gbe-pacwas1_servlet_pacwas
-| Upgrade-Insecure-Requests: 1
-
+```
+POST /stv_cvd_co00_000.do HTTP/1.1
+Host: eduro.gbe.kr
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 208
+Origin: https://eduro.gbe.kr
+Connection: keep-alive
+Referer: https://eduro.gbe.kr/stv_cvd_co00_002.do
+Cookie: WMONID=VPLR2pWm7-P; JSESSIONID=9dM1D8JJVTPl1k6s3w2MiEtNeuCnKHd19tVjLDDXK4FeaRPqVXJzltdi3kHnkWza.gbe-pacwas1_servlet_pacwas
+Upgrade-Insecure-Requests: 1
+```
 | Request Body
 ----------------
-| {"qstnCrtfcNoEncpt":resultSVO.qstnCrtfcNoEncpt,"rtnRsltCode":"SUCCESS","schulCode":schulCode,"schulNm":"학교","pName":"이름","frnoRidno":"생년월일","aditCrtfcNo":""}
-
+```
+{"qstnCrtfcNoEncpt":resultSVO.qstnCrtfcNoEncpt,"rtnRsltCode":"SUCCESS","schulCode":schulCode,"schulNm":"학교","pName":"이름","frnoRidno":"생년월일","aditCrtfcNo":""}
+```
 Response 는 json이 아니라 html입니다. 설문지 내용은 학교마다 다를 수 있습니다.
 
 ------------------------------------------------
@@ -105,28 +111,32 @@ Response 는 json이 아니라 html입니다. 설문지 내용은 학교마다 �
 
 | Request Header
 ------------------
-| POST /stv_cvd_co01_000.do HTTP/1.1
-| Host: eduro.gbe.kr
-| User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0
-| Accept: application/json, text/javascript, */*; q=0.01
-| Accept-Language: en-US,en;q=0.5
-| Accept-Encoding: gzip, deflate, br
-| Content-Type: application/x-www-form-urlencoded; charset=UTF-8
-| X-Requested-With: XMLHttpRequest
-| Content-Length: 139
-| Origin: https://eduro.gbe.kr
-| Connection: keep-alive
-| Referer: https://eduro.gbe.kr/stv_cvd_co00_000.do
-| Cookie: WMONID=VPLR2pWm7-P; JSESSIONID=9dM1D8JJVTPl1k6s3w2MiEtNeuCnKHd19tVjLDDXK4FeaRPqVXJzltdi3kHnkWza.gbe-pacwas1_servlet_pacwas
-
+```
+POST /stv_cvd_co01_000.do HTTP/1.1
+Host: eduro.gbe.kr
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Content-Length: 139
+Origin: https://eduro.gbe.kr
+Connection: keep-alive
+Referer: https://eduro.gbe.kr/stv_cvd_co00_000.do
+Cookie: WMONID=VPLR2pWm7-P; JSESSIONID=9dM1D8JJVTPl1k6s3w2MiEtNeuCnKHd19tVjLDDXK4FeaRPqVXJzltdi3kHnkWza.gbe-pacwas1_servlet_pacwas
+```
 | Request Body
 ----------------
-| {"rtnRsltCode":resultSVO.rtnRsltCode,
-| "qstnCrtfcNoEncpt":resultSVO.qstnCrtfcNoEncpt ,
-| "schulNm":resultSVO.schulNm,
-| "stdntName":resultSVO.stdntName ,
-| "rspns01":"1","rspns02":"1","rspns07":"0","rspns08":"0","rspns09":"0"}
-
+```
+{
+  "rtnRsltCode":resultSVO.rtnRsltCode,
+  "qstnCrtfcNoEncpt":resultSVO.qstnCrtfcNoEncpt,
+  "schulNm":resultSVO.schulNm,
+  "stdntName":resultSVO.stdntName ,
+  "rspns01":"1","rspns02":"1","rspns07":"0","rspns08":"0","rspns09":"0"
+}
+```
 rspnsN은 설문지 값입니다.
 
 설문지 내용이 Yes or No 라면 0, 1로 구분됩니다.
@@ -140,18 +150,19 @@ rspnsN은 설문지 값입니다.
 헤더만 다르고 전송하는 값은 같습니다. Html으로 응답합니다.
 | Request Header
 ----------------
-| POST /stv_cvd_co02_000.do HTTP/1.1
-| Host: eduro.gbe.kr
-| User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0
-| Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-| Accept-Language: en-US,en;q=0.5
-| Accept-Encoding: gzip, deflate, br
-| Content-Type: application/x-www-form-urlencoded
-| Content-Length: 211
-| Origin: https://eduro.gbe.kr
-| Connection: keep-alive
-| Referer: https://eduro.gbe.kr/stv_cvd_co00_000.do
-| Cookie: WMONID=VPLR2pWm7-P; JSESSIONID=9dM1D8JJVTPl1k6s3w2MiEtNeuCnKHd19tVjLDDXK4FeaRPqVXJzltdi3kHnkWza.gbe-pacwas1_servlet_pacwas
-| Upgrade-Insecure-Requests: 1
-
+```
+POST /stv_cvd_co02_000.do HTTP/1.1
+Host: eduro.gbe.kr
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 211
+Origin: https://eduro.gbe.kr
+Connection: keep-alive
+Referer: https://eduro.gbe.kr/stv_cvd_co00_000.do
+Cookie: WMONID=VPLR2pWm7-P; JSESSIONID=9dM1D8JJVTPl1k6s3w2MiEtNeuCnKHd19tVjLDDXK4FeaRPqVXJzltdi3kHnkWza.gbe-pacwas1_servlet_pacwas
+Upgrade-Insecure-Requests: 1
+```
 마지막으로, 결괏말 html은 #content_detail1의 첫번째 p 태그의 innerText입니다.
