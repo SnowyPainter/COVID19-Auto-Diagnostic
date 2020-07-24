@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "+vjxKO5Pu42exArAwc2N0KbcRr4ksB2gUnOsR28RIOnvvpApMIEHas7nHRkdyB738RWP7hJOfdUQG9G4mmGAoQ==",
+  "success": true,
+  "projectFilePath": "E:\\C#\\HealthMachine\\HealthChecker\\HealthChecker\\HealthChecker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\minwo\\.nuget\\packages\\htmlagilitypack\\1.11.24\\htmlagilitypack.1.11.24.nupkg.sha512",
+    "C:\\Users\\minwo\\.nuget\\packages\\materialdesigncolors\\1.2.6\\materialdesigncolors.1.2.6.nupkg.sha512",
+    "C:\\Users\\minwo\\.nuget\\packages\\materialdesignthemes\\3.1.3\\materialdesignthemes.3.1.3.nupkg.sha512",
+    "C:\\Users\\minwo\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
