@@ -21,3 +21,4 @@ E:\C#\HealthMachine\HealthChecker\HealthChecker\obj\Release\HealthChecker.csproj
 E:\C#\HealthMachine\HealthChecker\HealthChecker\obj\Release\HealthChecker.csproj.CopyComplete
 E:\C#\HealthMachine\HealthChecker\HealthChecker\obj\Release\HealthChecker.exe
 E:\C#\HealthMachine\HealthChecker\HealthChecker\obj\Release\HealthChecker.pdb
+E:\C#\HealthMachine\HealthChecker\HealthChecker\obj\Release\HealthChecker.csprojAssemblyReference.cache

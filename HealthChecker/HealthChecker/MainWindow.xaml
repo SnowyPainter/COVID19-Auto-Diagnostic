@@ -6,9 +6,9 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:HealthChecker"
         mc:Ignorable="d" 
-        Title="Health Checker 경상북도 - 자동 COVID19 자가진단기 학생용" ResizeMode="NoResize" Height="306" Width="488">
-    <Grid Background="#FFD9B79A">
-        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="280" Height="260" Margin="10,10,192,7" Background="#FF54669C">
+        Title="Health Checker 경상북도 - 자동 COVID19 자가진단기 학생용" ResizeMode="NoResize" Height="316" Width="533">
+    <Grid Background="#FFD9B79A" Margin="0,0,-1,1">
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="280" Height="260" Margin="15,15,233,11" Background="#FF54669C">
             <TextBlock Text="학생 정보" Margin="16,10,170,220" Foreground="#FFF0F0F0" FontSize="20"/>
             <TextBlock Text="진단 여부 : " Margin="120,15,80,225" FontSize="14" Foreground="#FFF3F3F3"/>
             <TextBlock x:Name="DidSelfDiagnosis" Text="알 수 없음" Margin="195,15,15,225" FontSize="14" Foreground="#FFC9C9C9"/>
@@ -19,10 +19,10 @@
                 <TextBox x:Name="StudentName" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialDesign:HintAssist.Hint="이름" Margin="15,0" Foreground="White" BorderBrush="#89FFFFFF" CaretBrush="#FFBF7969" Text=""/>
             </StackPanel>
         </Grid>
-        <Button Content="자가 진단 실행" HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top" Width="95" Height="40" BorderBrush="#FFBF7969" Background="#FFBF7969" Click="Button_Click"/>
-        <TextBlock Text="자동 진단" Margin="405,5,12,247" Foreground="#FFF1F1F1" FontSize="14"/>
-        <ToggleButton IsEnabled="False" IsChecked="True" Style="{StaticResource MaterialDesignSwitchToggleButton}" ToolTip="매 7시에 자동으로 출석합니다. 컴퓨터가 상시 켜져있어야합니다" Margin="408,30,17,225" RenderTransformOrigin="0.519,-4.459" Background="#FF4400BD" />
-        <ListBox x:Name="LogList" HorizontalAlignment="Left" Height="160" Margin="300,60,0,0" VerticalAlignment="Top" Width="175" Foreground="#DDFFFFFF" Background="#FF283959"/>
-        <TextBlock TextWrapping="WrapWithOverflow" Text="컴퓨터를 끄지마세요. 자동으로 COVID19 진단을 해주기 위해서는 프로그램이 열려있어야 합니다." HorizontalAlignment="Left" Margin="298,225,0,0" VerticalAlignment="Top" Height="49"/>
+        <Button Content="자가 진단 실행" HorizontalAlignment="Right" Margin="0,15,113,0" VerticalAlignment="Top" Width="95" Height="40" BorderBrush="#FFBF7969" Background="#FFBF7969" Click="Button_Click"/>
+        <TextBlock Text="자동 진단" Margin="0,5,37,0" Foreground="#FFF1F1F1" FontSize="14" HorizontalAlignment="Right" VerticalAlignment="Top" Height="30"/>
+        <ToggleButton IsEnabled="False" IsChecked="True" Style="{StaticResource MaterialDesignSwitchToggleButton}" ToolTip="매 7시에 자동으로 출석합니다. 컴퓨터가 상시 켜져있어야합니다" Margin="0,35,43,226" RenderTransformOrigin="0.519,-4.459" Background="#FF4400BD" HorizontalAlignment="Right" Width="60" />
+        <ListBox x:Name="LogList" HorizontalAlignment="Right" Height="160" Margin="0,60,23,0" VerticalAlignment="Top" Width="185" Foreground="#DDFFFFFF" Background="#FF283959"/>
+        <TextBlock TextWrapping="WrapWithOverflow" Text="컴퓨터를 끄지마세요. 자동으로 COVID19 진단을 해주기 위해서는 프로그램이 열려있어야 합니다." HorizontalAlignment="Right" Margin="0,225,23,0" VerticalAlignment="Top" Height="50" Width="185"/>
     </Grid>
 </Window>
