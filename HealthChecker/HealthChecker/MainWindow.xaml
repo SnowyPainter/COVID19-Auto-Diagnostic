@@ -6,7 +6,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:HealthChecker"
         mc:Ignorable="d" 
-        Title="Health Checker 경상북도 - 자동 COVID19 자가진단기 학생용" ResizeMode="NoResize" Height="316" Width="533">
+        Title="Health Checker 인천 광역시 - 자동 COVID19 자가진단기 학생용" ResizeMode="NoResize" Height="316" Width="533">
     <Grid Background="#FFD9B79A" Margin="0,0,-1,1">
         <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="280" Height="260" Margin="15,15,233,11" Background="#FF54669C">
             <TextBlock Text="학생 정보" Margin="16,10,170,220" Foreground="#FFF0F0F0" FontSize="20"/>

@@ -9,6 +9,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Security.Policy;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -30,7 +31,7 @@ namespace HealthChecker
     {
         private static readonly HttpClient client = new HttpClient();
         private HtmlDocument document = new HtmlDocument();
-        private static string domain = "https://eduro.gbe.kr";
+        private static string domain = "https://eduro.ice.go.kr";
         private static Dictionary<string, string> body = new Dictionary<string, string>
         {
             {"schulNm","" }
@@ -61,10 +62,12 @@ namespace HealthChecker
                     {
                         await DoSelfDiagnosis();
                     }));
-                    
+
                 }
-                else if (DateTime.Now.Hour > 7)
+                else if (DateTime.Now.Hour == 0)
                     didDiagnosis = false;
+
+                Thread.Sleep(60 * 1000);
             }
             
         }
@@ -154,8 +157,8 @@ namespace HealthChecker
                     {
                         addLog("설문 제출 완료");
                         document.LoadHtml(await postFormAndGetHTML("stv_cvd_co02_000.do", body));
-                        var resultMsg = document.GetElementbyId("content_detail1").SelectSingleNode(".//p").InnerText;
-                        addLog((from c in resultMsg where !char.IsWhiteSpace(c) select c).ToString());
+                        //var resultMsg = document.GetElementbyId("content_detail1").SelectSingleNode(".//p").InnerText;
+
                         addLog("출석 완료되었습니다");
                         DidSelfDiagnosis.Text = "출석 완료";
                         didDiagnosis = true;
