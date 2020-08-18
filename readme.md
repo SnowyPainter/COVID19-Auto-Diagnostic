@@ -1,6 +1,9 @@
 # Health Checker
 ## 켜놓기만 하면 매일 아침 7시에 귀찮은 자가진단 완료
 
+자가진단 작동 원리는 아래 링크를 참고해주세요
+[https://github.com/SnowyPainter/HealthChecker/blob/master/How_It_Works.md](https://github.com/SnowyPainter/HealthChecker/blob/master/How_It_Works.md)
+
 현재 모든 지역을 지원합니다.
 
 1. 강원도
