@@ -1,4 +1,4 @@
-# Health Checker
+# COVID19 Auto Diagnostic
 ## 켜놓기만 하면 매일 아침 7시에 귀찮은 자가진단 완료
 
 [다운로드 하기](https://github.com/SnowyPainter/HealthChecker/releases/tag/1)
