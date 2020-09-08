@@ -5,7 +5,7 @@
 
 ![프로그램 디자인](./program.png)
 
-# Health Checker, How does it work? 작동 방법
+# Auto Diagnostic, How does it work? 작동 방법
 
 # Feature
 1. 교육청 도메인만 다르고, 작동 파일부터 Request까지 다 같습니다
