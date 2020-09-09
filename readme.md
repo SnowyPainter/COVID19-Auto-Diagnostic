@@ -1,4 +1,10 @@
 # COVID19 Auto Diagnostic
+
+
+* 새 자가진단 시스템이 나왔음에도 불구하고 여전히 프로그램은 작동합니다.
+* 사이트 매커니즘들과 Reqeust 하는 주소들은 변함없이 사용중인 것으로 판단됩니다.
+
+
 ## 켜놓기만 하면 매일 아침 7시에 귀찮은 자가진단 완료
 
 [다운로드 하기](https://github.com/SnowyPainter/HealthChecker/releases/tag/1)
