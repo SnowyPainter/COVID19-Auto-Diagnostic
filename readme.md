@@ -19,10 +19,9 @@ loginwithschool -> secondlogin -> https://gbehcs.eduro.go.kr/registerServey
 로그인 후에 https://hcs.eduro.go.kr/#/main 에선 클래스 memberWrap인 selection 태그의 두번째부터 참여자 목록이 보입니다. 첫 자가진단 시간을 확인 할 수 있습니다. 
 
 
-
 ### 단순 워크플로
-------------
 학교 정보 입수 -> 비밀번호 입력 (혹은 초기 설정) -> 자가진단 -> 완료
+
 
 # https://hcs.eduro.go.kr/school - 학교 정보 입수
 위 주소는 학교의 상세정보를 얻는데 씁니다. 
