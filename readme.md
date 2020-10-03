@@ -41,7 +41,7 @@ Response 데이터는 schulList 오브젝트에 차곡차곡 관련 학교데이
 orgCode : 학교 코드입니다.  
 kraOrgNm : 학교 이름입니다.  
 addres : 학교 주소입니다.  
-atptOfcdcConctUrl : 적합한 도 코드가 들어간 도메인입니다.
+atptOfcdcConctUrl : 적합한 도 코드가 들어간 도메인입니다. (= 지역코드hcs.eduro.go.kr)
 
 이러한 프로퍼티들이 있습니다.
 
